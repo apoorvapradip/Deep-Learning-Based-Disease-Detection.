@@ -1,17 +1,6 @@
 # Deep-Learning-Based-Disease-Detection.
 Deep Learning-Based Disease Detection: Psoriasis, Acne, and Eczema-Using VGG16,VGG19,ResNet50
 
-Skin diseases such as Psoriasis, Acne, and Eczema are common across all age groups and can
-significantly affect a person’s quality of life. Accurate and early diagnosis of these diseases is crucial for
-effective treatment and management. However, diagnosis by dermatologists often relies on manual
-inspection, which can be subjective and time-consuming, especially in rural or underserved areas with
-limited access to specialists.
-Recent advancements in Artificial Intelligence (AI) and Deep Learning (DL) offer a promising
-solution to automate the diagnosis process. Deep learning models, especially Convolutional Neural
-Networks (CNNs), have demonstrated excellent performance in image recognition tasks. In the
-healthcare domain, CNNs have shown promising results in analyzing medical images, including skin
-lesion classification.
-Our project aims to develop a deep learning-based system that can automatically detect and classify
-three common skin diseases—Psoriasis, Acne, and Eczema—using image data. This automated tool can
-assist dermatologists in decision-making and provide a fast and accessible method for preliminary
-disease detection.
+This project focuses on deep learning-based skin disease detection, specifically targeting Psoriasis, Acne, and Eczema. We implemented and compared three popular convolutional neural network architectures—VGG16, VGG19, and ResNet50—for image classification. The dataset used was preprocessed and augmented to improve model generalization and performance. Each model was trained and evaluated based on accuracy, loss, and validation metrics. The results highlight the effectiveness of deep learning in automating dermatological diagnosis.
+
+Among the three models, ResNet50 demonstrated the highest accuracy, making it the most effective choice in our experiments. However, both VGG16 and VGG19 also showed strong performance and may be preferred in scenarios requiring lighter architectures or faster training. Model selection can therefore be tailored based on application constraints like computational resources or real-time deployment needs. This comparison emphasizes that while deeper models offer better accuracy, simpler models still hold significant value. Our work showcases how multiple architectures can be leveraged depending on practical use cases.
